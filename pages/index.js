@@ -14,17 +14,25 @@ export default function Home() {
       </Head>
 
       <MainBox>
-        <h1>Welcome to Next.js!</h1>
-
+        <h1>Next.js Template</h1>
+        <ol>
+          <li>Styled components</li>
+          <li>Dark mode and light mode themes</li>
+          <li>
+            Footer is positioned at the bottom regardless of the size of the
+            content
+          </li>
+        </ol>
         <>
           <Card>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </Card>
-
-          <Card>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h2> voluptatum &rarr;</h2>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque corrupti quos
+              dolores et quas molestias excepturi sint occaecati cupiditate non
+              provident, similique sunt in culpa qui officia deserunt mollitia
+              animi, id est laborum et dolorum fuga.
+            </p>
           </Card>
         </>
       </MainBox>

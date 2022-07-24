@@ -7,6 +7,7 @@ export const MainBox = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 2rem;
 `;
 
 export const Card = styled.div`
@@ -18,7 +19,7 @@ export const Card = styled.div`
   color: inherit;
   text-decoration: none;
   border-radius: 10px;
-  font-size: 2rem;
+  font-size: 1.2rem;
   text-shadow: 5px 5px 5px ${(props) => props.theme.textshadowcolor};
 `;
 

@@ -4,6 +4,14 @@
 2. Dark mode and light mode themes
 3. Footer at the bottom regardless of content length
 
+Important notes:
+- After installing the next app, create the .gitignore file 
+  - When you run the app with 'yarn run dev' a .next folder gets created
+  - This folder and the node_modules should not be pushed to github.
+  - Referencing them in the gitignore file will stop them from being pushed.
+
+
+
 ## Resources:
 - https://styled-components.com/docs/advanced
 - https://blog.logrocket.com/theming-in-next-js-with-styled-components-and-usedarkmode/

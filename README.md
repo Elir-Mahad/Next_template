@@ -9,6 +9,7 @@ Important notes:
   - When you run the app with 'yarn run dev' a .next folder gets created
   - This folder and the node_modules should not be pushed to github.
   - Referencing them in the gitignore file will stop them from being pushed.
+  - This will ensure that they only changes you see in your commits are your changes.
 
 
 
